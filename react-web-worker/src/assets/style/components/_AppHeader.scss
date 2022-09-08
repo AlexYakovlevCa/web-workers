@@ -1,0 +1,16 @@
+header {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: lightblue;
+
+    nav {
+        color: rgb(5, 18, 19);
+        :not(:last-child) {
+            margin-inline-end: 10px;
+        }
+        a.active {
+            color: blue;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.show-time-container{
+    border:1px solid #000;
+    width:500px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+
+}
+
+.dark{
+    background-color: rgb(65,65,65);
+    color:rgb(80, 162, 255);
+}
+
+.season-img{
+    background-image: url("../../seasons.png");
+    width: 110px;
+    height: 115px;
+}
+.spring {
+    background-position: -130px -39px;
+}
+.summer {
+    background-position: -255px -37px;
+}
+.fall {
+    background-position: -375px -25px;
+}
+.winter {
+    background-position: -10px -30px;
+}

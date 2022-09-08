@@ -1,0 +1,104 @@
+1.what is the difference between self and this?
+2.what is a worker?
+3. what is the difference between serviceWorker and webWorker?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.  The keyword self is used to refer to the current class itself 
+    within the scope of that class only whereas, "this" is used to 
+    refer to the member variables and function 
+    for a particular instance of a class.
+
+    Unless set elsewhere, the value of self is window because JavaScript
+    lets you access any property x of window as simply x, instead of window.x.
+    Therefore, self is really window.self, which is different to this.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2.  worker is a script that runs on a thread separate 
+    to the browser’s main thread.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.  ervice workers are a proxy between the browser and
+    the network. By intercepting requests made by the document,
+    service workers can redirect requests to a cache, enabling offline 
+    access. Web workers are general-purpose scripts that enable us to offload
+    processor-intensive work from the main thread.
